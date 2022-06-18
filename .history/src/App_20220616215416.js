@@ -1,0 +1,26 @@
+
+import React,{Component} from 'react';
+import './App.css';
+import Header from './component/Header';
+import Hero from './component/Hero';
+import Card from './component/Card';
+
+// import Users from './component/users/Users';
+class App extends Component{
+  render(){
+
+    return (
+      <div className="App">
+       <Header/>
+       <Hero/>
+       <Card
+       img={image12}
+       rating='5.0'
+       reviewcount={6}
+       country='USA'/>
+        </div>
+    );
+  }
+}
+
+export default App;
