@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#F55A5A;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+nav>h1{
+    color: #fff;
+}

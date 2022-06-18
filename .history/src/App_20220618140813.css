@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#F55A5A;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+nav>h1{
+    color: #fff;
+    padding: 0 8px;
+}.card{
+    display: flex;
+    align-items: center;
+    width: 467px;
+    left: 3px;
+}
+.card-image{
+    width: 125px;
+    height:168px ;
+    margin-top: 60px;
+    margin-left:;
+}
